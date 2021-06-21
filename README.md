@@ -9,4 +9,4 @@ Nombre y legajo de todos los integrantes:
 Email del integrante responsable del grupo: mottato@frba.utn.edu.ar
 
 
-DER LucidChar: https://lucid.app/lucidchart/62c59045-f85e-46e3-8602-4480e1944c91/edit?invitationId=inv_7f2b5060-6522-4891-ab90-dba39b580bfa&page=0_0#
+DER LucidChart: https://lucid.app/lucidchart/62c59045-f85e-46e3-8602-4480e1944c91/edit?invitationId=inv_7f2b5060-6522-4891-ab90-dba39b580bfa&page=0_0#
