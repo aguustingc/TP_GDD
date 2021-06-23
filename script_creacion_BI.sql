@@ -357,3 +357,35 @@ FROM SPARK.DETALLE_FACTURA dfac INNER JOIN SPARK.FACTURA fac ON (dfac.DETALLE_NU
 */
 
 GO
+
+
+-- Vistas
+
+
+--			PCs
+
+--Precio promedio de PCs, vendidos y comprados.
+SELECT (SELECT AVG(CONVERT(FLOAT, COMPRA_IMPORTE))
+		FROM SPARK.BI_DIM_PC
+		INNER JOIN SPARK.BI_FACT_COMPRA ON (COMPRA_PRODUCTO = PC_ID)) AS COMPRA_PROMEDIO,
+	   (SELECT AVG(CONVERT(FLOAT, VENTA_IMPORTE))
+		FROM SPARK.BI_DIM_PC
+		INNER JOIN SPARK.BI_FACT_VENTA ON (VENTA_PRODUCTO = PC_ID)) AS VENTA_PROMEDIO
+
+--Cantidad de PCs, vendidos y comprados x sucursal y mes
+
+--Cantidad de PCs, vendidos y comprados x sucursal y mes
+
+--Ganancias (precio de venta – precio de compra) x Sucursal x mes
+
+
+
+--			Accesorios
+
+--Precio promedio de cada accesorio, vendido y comprado.
+
+--Ganancias (precio de venta – precio de compra) x Sucursal x mes
+
+--Promedio de tiempo en stock de cada modelo de accesorio.
+
+--Máxima cantidad de stock por cada sucursal (anual)
