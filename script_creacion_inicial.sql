@@ -1,6 +1,7 @@
 USE GD1C2021;
 GO
 
+
 -- Eliminacion de objetos preexistentes
 
 IF OBJECT_ID('SPARK.DETALLE_FACTURA','U') IS NOT NULL
